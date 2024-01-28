@@ -1,0 +1,123 @@
+header{
+    height: 100vh;
+    padding: 7rem;
+    margin-bottom: 300px;
+}
+
+.header_container{
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* ==========CTA========= */
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* ======== header social ======= */
+.header_socials{
+    display: flex;
+    flex-direction:  column;
+     align-items: center;
+     position: absolute;
+     left: 0;
+     bottom: 0rem;
+}
+
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ======== Me (image) ======== */
+.mecenter{
+    display: flex;
+    justify-content: center;
+}
+
+.me{
+    background:linear-gradient(var(--color-primary),transparent);
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50%-11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me img{
+    max-width: 26rem;
+    height: 15rem;
+}
+
+
+/* ====== scrool__down ===== */
+.Scroll_down{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0rem;
+    transform: rotate(90deg);
+    bottom: 0rem;
+    font-weight: 300;
+}
+
+/* ======= media queries ====== */
+
+@media screen and (min-width:800px) and (max-width: 1024px) {
+    header{
+       height: 100vh;
+       width: 100%;
+    } 
+    .header_socials,.Scroll_down{
+        bottom: 5rem;
+       }
+       .Scroll_down{
+        right: -9rem;
+       }
+       .header_socials{
+        left: -7rem;
+       }
+}
+
+@media screen and (max-width: 799px) {
+    header{
+        width: 100%;
+       height: 100vh;
+      
+    } 
+    .header_socials,.Scroll_down{
+        bottom: 25rem;
+       }
+       .Scroll_down{
+        right: -9rem;
+       }
+       .header_socials{
+        left: -7rem;
+       }
+
+}
+
+
+@media screen and (max-width: 499px)  {
+    header{
+     height: 100vh;
+     padding: 55px 0px 0px 0px;
+     width: 100%;
+   
+    }
+    .header_socials,.Scroll_down{
+     display: none;
+    }
+ }
+ 
