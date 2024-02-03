@@ -1,8 +1,8 @@
 import React from "react";
 import "./testimonial.css";
-import Profile1 from "C:/Users/usr186/Desktop/franckportofolio/src/images/profile1.jpg";
-import Profile2 from "C:/Users/usr186/Desktop/franckportofolio/src/images/profile2.jpg";
-import Profile3 from "C:/Users/usr186/Desktop/franckportofolio/src/images/profile3.jpg";
+import Profile1 from "/src/images/profile1.jpg";
+import Profile2 from "/src/images/profile2.jpg";
+import Profile3 from "/src/images/profile3.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 

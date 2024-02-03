@@ -1,7 +1,7 @@
 import React from "react";
-import IMG from "C:/Users/usr186/Desktop/franckportofolio/src/images/pexels-josh-sorenson-1714205.jpg";
-import IMG2 from "C:/Users/usr186/Desktop/franckportofolio/src/images/pexels-lisa-fotios-16129877.jpg";
-import IMG3 from "C:/Users/usr186/Desktop/franckportofolio/src/images/pexels-luis-gomes-546819.jpg";
+import IMG from "/src/images/pexels-josh-sorenson-1714205.jpg";
+import IMG2 from "/src/images/pexels-lisa-fotios-16129877.jpg";
+import IMG3 from "/src/images/pexels-luis-gomes-546819.jpg";
 import "./portfolio.css";
 
 function portfolio() {
