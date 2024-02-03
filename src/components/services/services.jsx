@@ -15,23 +15,38 @@ function services() {
           <ul className="service_list">
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Building intuitive and responsive UI experiences that drive
+                engagement and conversions
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Transforming complex data into visually compelling and
+                user-friendly interfaces.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Crafting pixel-perfect interfaces that captivate users and
+                elevate your brand.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Optimizing user flows for increased efficiency and achieving key
+                business objectives.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Possessing a deep understanding of both UI and UX principles to
+                ensure a cohesive and engaging experience.
+              </p>
             </li>
           </ul>
         </article>
@@ -44,23 +59,38 @@ function services() {
           <ul className="service_list">
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Building responsive and user-friendly interfaces using modern
+                frameworks like React, Angular, or Vue.js.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Optimizing website performance for speed and responsiveness
+                across all devices
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Integrating third-party APIs and services to expand website
+                functionality.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Implementing interactive elements and animations to enhance user
+                engagement.
+              </p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Developing custom server-side applications using popular
+                languages like Node.js, Python, or PHP.
+              </p>
             </li>
           </ul>
         </article>
@@ -72,23 +102,23 @@ function services() {
           <ul className="service_list">
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Regular website speed tests and performance analysis.</p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Code optimization and minification.</p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>SEO optimization of content and meta descriptions.</p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Adding, editing, and updating website content.</p>
             </li>
             <li>
               <IoCheckmarkDoneSharp style={{ fontSize: 40 }} />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Server optimization and configuration.</p>
             </li>
           </ul>
         </article>

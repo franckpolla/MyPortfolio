@@ -10,6 +10,7 @@ import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { TbBrandPython } from "react-icons/tb";
+import { FaSass } from "react-icons/fa";
 
 const exprerience = () => {
   return (
@@ -57,6 +58,14 @@ const exprerience = () => {
               </div>
             </article>
             <article className="experience__details">
+              <FaSass style={{ fontSize: 40 }} />
+
+              <div>
+                <h4>SASS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
               <FaReact style={{ fontSize: 40 }} />
               <div>
                 {" "}
@@ -89,7 +98,7 @@ const exprerience = () => {
               <SiMysql style={{ fontSize: 40 }} />
               <div>
                 <div>
-                  <h4>MySQL</h4>
+                  <h4>SQL</h4>
                   <small className="text-light">Intermediate</small>
                 </div>
               </div>{" "}

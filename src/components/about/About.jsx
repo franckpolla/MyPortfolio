@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Me from "C:/Users/usr186/Desktop/franckportofolio/public/images/IMG_20220516_152419.jpg";
+import Me from "C:/Users/usr186/Desktop/franckportofolio/src/images/IMG_20220516_152419.jpg";
 import { FaAward } from "react-icons/fa6";
 import { HiUsers } from "react-icons/hi2";
 import { FaProjectDiagram } from "react-icons/fa";
@@ -34,7 +34,7 @@ const About = () => {
             <article className="about__card">
               <FaProjectDiagram className="about__icon" />
               <h5> Projects</h5>
-              <small> 3+ Completed</small>
+              <small> 10+ Completed</small>
             </article>
           </div>
           <p>
