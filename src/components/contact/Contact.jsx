@@ -6,17 +6,16 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const SEVICE_ID = import.meta.env.VITE_KEY_SEVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_KEY_TEMPLATE_ID;
+  const CURRENT_FORM = import.meta.env.VITE_KEY_CURRENT_FORM;
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_u6qo36i",
-        "template_7cc5x25",
-        form.current,
-        "-CGFf-zpj26sDFPZm"
-      )
+      .sendForm({ SEVICE_ID }, { TEMPLATE_ID }, form.current, { CURRENT_FORM })
       .then(
         (result) => {
           console.log(result.text);
