@@ -1,5 +1,5 @@
 #portfolio{
-    margin-top: 500px;
+    margin-top: 50rem;
 }
  .portfolio_container {
     display: grid;
@@ -50,7 +50,7 @@
 
 @media  (max-width:1024px) {
     #portfolio{
-        margin-bottom: 25rem;
+        margin-bottom: 55rem;
     }
  
     .portfolio_container {
@@ -58,8 +58,10 @@
         gap: 1.2rem;
       max-width: 1024px;
     }
-  
 }
+
+
+  
 
 @media (max-width:600px) {
     
@@ -71,6 +73,31 @@
     #portfolio{
         margin-top: 100rem;
     }   
+}
+
+
+/* Landscape Mode */
+@media (orientation: landscape) {
+  @media (max-width:1024px){
+
+    #portfolio {
+        margin-top: 90rem;
+        margin-bottom: 55rem; /* Adjust margin for landscape mode */
+    }
+
+    .portfolio_container {
+        grid-template-columns: repeat(1fr); /* Example: 3 columns in landscape */
+        gap: 1.5rem;
+        margin: 0px;
+        max-width: 1200px; /* Adjust max-width for landscape mode */
+    }
+  }
+    
+    @media (max-width: 600px) {
+        #portfolio {
+            margin-top: 50rem; /* Adjust margin for smaller screens in landscape mode */
+        }
+    }
 }
 
 

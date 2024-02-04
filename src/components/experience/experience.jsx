@@ -18,7 +18,7 @@ const exprerience = () => {
       <h5>My Stack Skills</h5>
       <h2>My experience</h2>
       <div className="container experience__container">
-        <div className="experince__frontend">
+        <div div className="experince__frontend">
           <h3> Frontend Developement</h3>
           <div className="exeperience__content">
             <article className="experience__details">
