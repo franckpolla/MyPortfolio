@@ -41,7 +41,7 @@
 
 
 /* ======= Media Queries ======= */
-@media (width >800px) and(width <= 1024px) {
+@media (max-width <= 1024px) {
     .container.testimonials_container{
         width: 60%;
         max-width: 1024px;
@@ -57,6 +57,7 @@
      }
      #testimonial{
         margin-top: 15rem;
+    
     }
     
 }
@@ -75,3 +76,42 @@
  }
     
 }
+
+/* Landscape Mode */
+@media (orientation: landscape) {
+    /* Larger screens in landscape */
+    @media (max-width: 1024px) {
+        .container.testimonials_container {
+            width: 60%;
+            max-width: 1024px;
+        }
+        #testimonial {
+            margin-top: 20rem;
+            margin-bottom: 55rem;
+        }
+    }
+
+    /* Medium-sized screens in landscape */
+    @media (width > 600px) and (width <= 800px) {
+        .container.testimonials_container {
+            width: 60%;
+        }
+        #testimonial {
+            margin-top: 15rem;
+        }
+    }
+
+    /* Smaller screens in landscape */
+    @media (width <= 600px) {
+        #testimonial {
+            margin-top: 60rem;
+        }
+        .container.testimonials_container {
+            width: var(--container-width-sm);
+        }
+        .client_review {
+            width: var(--container-width-sm);
+        }
+    }
+}
+

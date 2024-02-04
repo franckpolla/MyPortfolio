@@ -5,7 +5,6 @@
  
 }
 
-
 .service{
     background:var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
@@ -59,16 +58,17 @@
     }    
     #services{
         margin-bottom: 55rem;
+   
        }
 }
 
 
 @media (max-width:600px) {
    #services{
-    margin-top: 30rem;
+    margin-top: 40rem;
    }
    #services{
-    margin-bottom: 100rem;
+    margin-bottom: 140rem;
    }
     .services_container{
         grid-template-columns: 1fr;
@@ -78,10 +78,32 @@
 }
 
 
+/* Landscape Mode */
+@media (orientation: landscape) {
+    /* Larger screens in landscape */
+    @media (max-width: 1024px) {
+        .services_container {
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            max-width: 1024px;
+        }
+        #services {
+            margin-bottom: 55rem;
+        }
+    }
 
-
-
-
-
+    /* Smaller screens in landscape */
+    @media (max-width: 600px) {
+        #services {
+            margin-top: 30rem;
+            margin-bottom: 140rem;
+        }
+        .services_container {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            max-width: 600px;
+        }
+    }
+}
 
 
