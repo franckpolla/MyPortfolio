@@ -37,12 +37,20 @@ function portfolio() {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="portfolio" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Quote Generator</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/franckpolla/MyPortfolio.git"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://franckpolla.github.io/Mixed-Message/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
@@ -52,12 +60,20 @@ function portfolio() {
           <div className="portfolio_item-image">
             <img src={IMG3} alt="portfolio" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>TODO App</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/franckpolla/Todoapp"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://franckpolla.github.io/Todoapp/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
