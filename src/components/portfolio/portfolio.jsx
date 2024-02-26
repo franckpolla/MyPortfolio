@@ -6,11 +6,11 @@ import "./portfolio.css";
 
 function portfolio() {
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="mt-15 w-full m-0 h-auto ">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <div className=" container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG} alt="portfolio" />
@@ -33,6 +33,7 @@ function portfolio() {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG2} alt="portfolio" />

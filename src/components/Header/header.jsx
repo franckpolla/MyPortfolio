@@ -6,8 +6,8 @@ import Headersocial from "./headersocial";
 
 function header() {
   return (
-    <header>
-      <div className="container header_container ">
+    <header className="w-full">
+      <div className="header_container m-20">
         <h5> hello I'm </h5>
         <h1> Franck polla</h1>
         <h5 className="text-light"> Fullstack Engineer </h5>

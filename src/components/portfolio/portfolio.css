@@ -1,6 +1,6 @@
-#portfolio{
+/* #portfolio{
     margin-top: 50rem;
-}
+} */
  .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,9 +49,9 @@
 /* ====media query ====== */
 
 @media  (max-width:1024px) {
-    #portfolio{
+    /* #portfolio{
         margin-bottom: 55rem;
-    }
+    } */
  
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
@@ -70,9 +70,9 @@
       gap: 1rem;
       max-width: 600px;
     }
-    #portfolio{
+    /* #portfolio{
         margin-top: 100rem;
-    }   
+    }    */
 }
 
 
@@ -80,10 +80,10 @@
 @media (orientation: landscape) {
   @media (max-width:1024px){
 
-    #portfolio {
+    /* #portfolio {
         margin-top: 90rem;
         margin-bottom: 55rem; /* Adjust margin for landscape mode */
-    }
+    /* }  */
 
     .portfolio_container {
         grid-template-columns: repeat(1fr); /* Example: 3 columns in landscape */
@@ -93,11 +93,11 @@
     }
   }
     
-    @media (max-width: 600px) {
+    /* @media (max-width: 600px) {
         #portfolio {
             margin-top: 50rem; /* Adjust margin for smaller screens in landscape mode */
-        }
-    }
+        /* }
+    }  */
 }
 
 
