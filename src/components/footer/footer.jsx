@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 import { BsWhatsapp } from "react-icons/bs";
 function footer() {
   return (
-    <footer>
+    <footer className="w-full">
       <a href="" className="footer_logo">
         {" "}
         Franck Polla

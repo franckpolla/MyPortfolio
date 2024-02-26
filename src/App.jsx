@@ -12,7 +12,7 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <>
-      <div>
+      <div className="w-full p-0 m-0">
         <Header />
         <Nav />
         <About />

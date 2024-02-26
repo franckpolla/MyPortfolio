@@ -64,10 +64,10 @@ resize: none;
     .contact_option{
         width: 100%;
     } 
-    #contact{
+    /* #contact{
         margin-bottom: 25rem;
         margin-top: 18rem;
-    }   
+    }    */
 }
 
 @media screen and (max-width:600px) {
@@ -76,8 +76,8 @@ resize: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10rem;
-        margin-top: 28rem;
+        /* margin-bottom: 10rem;
+        margin-top: 28rem; */
     }
     .container.contact_container{
         width: var(--continer-width-sm);
@@ -99,10 +99,9 @@ resize: none;
         width: 100%; /* Adjust width if needed */
     }
 
-    #contact {
+    /* #contact {
         margin-bottom: 15rem; /* Adjust margin for landscape mode */
-        margin-top: 10rem; /* Adjust margin for landscape mode */
-    }
+        /* margin-top: 10rem;     }  */
 
     @media (max-width: 600px) {
         #contact {
@@ -110,9 +109,9 @@ resize: none;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-bottom: 8rem; /* Adjust margin for smaller screens in landscape mode */
-            margin-top: 18rem; /* Adjust margin for smaller screens in landscape mode */
-        }
+            /* margin-bottom: 8rem; 
+            margin-top: 18rem;  */
+                }
 
         .container.contact_container {
             grid-template-columns: 1fr; /* Single column for smaller screens in landscape mode */

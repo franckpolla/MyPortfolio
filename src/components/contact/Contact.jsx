@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" className="h-auto pt-5 ">
       <h5> GET In Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact_container">

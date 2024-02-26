@@ -1,6 +1,4 @@
-#experience{
-    margin-top: 15rem;
-}
+
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,9 +52,9 @@
 } */
 
 @media screen and (max-width: 600px){
-    #experience{
+    /* #experience{
         margin-top: 700px;
-    } 
+    }  */
     .experience__container{
         display: flex;
         flex-direction: column;
@@ -86,18 +84,18 @@
             padding: 0; /* Reset padding */
         }
        
-        #experience {
+        /* #experience {
             margin-top: 70rem;
             margin-bottom: 45rem;
             
-        }
+        } */
     }
 
     /* Smaller screens in landscape */
     @media screen and (max-width: 600px) {
-        #experience {
+        /* #experience {
             margin-top: 700px;
-        }
+        } */
         .experience__container {
             display: flex;
             flex-direction: column;
