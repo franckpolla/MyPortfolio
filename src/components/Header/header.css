@@ -1,7 +1,7 @@
 header{
     height: 100vh;
-    padding: 7rem;
-    margin-bottom: 300px;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .header_container{

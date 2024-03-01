@@ -6,7 +6,7 @@ import Headersocial from "./headersocial";
 
 function header() {
   return (
-    <header className="w-full">
+    <header className="w-full h-auto pb-5">
       <div className="header_container m-20">
         <h5> hello I'm </h5>
         <h1> Franck polla</h1>
