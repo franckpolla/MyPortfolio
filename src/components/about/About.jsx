@@ -7,7 +7,7 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" className="h-auto p-10 w-full m-0">
+    <section id="about" className="h-auto pt-14 w-full ">
       <div className="p-10">
         <h5 className=" text-center text-blue-300">Get to know</h5>
         <h2 className=" text-center text-bold mb-10 text-blue-500">
