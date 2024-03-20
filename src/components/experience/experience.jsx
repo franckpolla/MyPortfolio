@@ -11,6 +11,9 @@ import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { TbBrandPython } from "react-icons/tb";
 import { FaSass } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const exprerience = () => {
   return (
@@ -44,9 +47,9 @@ const exprerience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <FaBootstrap style={{ fontSize: 40 }} />
+              <SiTypescript style={{ fontSize: 40 }} />
               <div>
-                <h4>BOOTSTRAP</h4>
+                <h4>TYPESCRIPT</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -54,14 +57,15 @@ const exprerience = () => {
               <TbBrandTailwind style={{ fontSize: 40 }} />
               <div>
                 <h4>TAILWIND</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
+
             <article className="experience__details">
-              <FaSass style={{ fontSize: 40 }} />
+              <SiNextdotjs style={{ fontSize: 40 }} />
 
               <div>
-                <h4>SASS</h4>
+                <h4>NEXT.JS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -99,6 +103,15 @@ const exprerience = () => {
               <div>
                 <div>
                   <h4>SQL</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </div>{" "}
+            </article>
+            <article className="experience__details">
+              <BiLogoPostgresql style={{ fontSize: 40 }} />
+              <div>
+                <div>
+                  <h4>POSTGRES</h4>
                   <small className="text-light">Intermediate</small>
                 </div>
               </div>{" "}

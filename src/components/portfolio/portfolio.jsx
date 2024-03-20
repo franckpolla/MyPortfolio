@@ -4,6 +4,7 @@ import IMG2 from "/src/images/pexels-lisa-fotios-16129877.jpg";
 import IMG3 from "/src/images/pexels-luis-gomes-546819.jpg";
 import Francis from "/src/images/francis.jpg";
 import Thumbnail from "/src/images/thumbnail.jpeg";
+import Next from "/src/images/nextjs.png";
 import "./portfolio.css";
 
 function portfolio() {
@@ -111,6 +112,28 @@ function portfolio() {
           <div className="portfolio_item-cta">
             <a
               href="https://super-queijadas-2d8f31.netlify.app/#"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={Next} alt="portfolio" />
+          </div>
+          <h3>UI desing with Next js</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/franckpolla/UI-with-Nextjs"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://ui-with-nextjs.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
